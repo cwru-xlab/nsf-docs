@@ -2,11 +2,8 @@
 
 ## Contributing
 
-Please get familiar with [writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) before contributing to this repository.
-
-## Commits
-
-Commits should follow the [Conventional Commits specification v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
+- Get familiar with [writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+- Commits should follow the [Conventional Commits specification v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Documentation conventions
 
