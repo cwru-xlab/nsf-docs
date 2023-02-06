@@ -17,4 +17,12 @@
 
 ## Use cases
 
+### NSF Healthcare
+This architecture supports the use case where a researcher party maintains service providers to collect health data from many people, where each person is considered an "end user", and is represented by a respective universal data agent. Users have their health data stored inside of what is called a "Personal Data Account" (PDA), which is a remote store for JSON data provided by the company "Dataswift". Users' PDAs are assumed to be populated with health data outside of this architecture. The end user can control their universal data agents via a mobile app, in which they have the option to transfer data from their personal PDA to service providers.
+
+In a typical example case of data transfer, the user is assumed to have a QR code from a service provider that they want to send to. How the user obtains this QR code is outside of this architecture. The user is also assumed to have set data access rules for what specific data they want to send to the service provider. Once the user scans the QR code in the mobile app, the app makes a request to the universal data agent, saying that they want to transfer specific data to the service provider specified by the QR code's. Once the data agent receives this request, it parses the QR code as contact information for where it can communicate with the service provider. With this information, the data agent sends an Out-of-Band message to the service provider... ***TODO*** The data agent then pulls the personal data as previously specified, and sends it to the service provider via ***TODO protocol***. At this point, the transfer is completed, and the end user is notified of the successful transfer in their app.
+
+Docs for this use case implementation can be seen here: [TODO]().
+
+
 ## Delivery plan
