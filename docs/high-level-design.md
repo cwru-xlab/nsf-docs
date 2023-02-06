@@ -1,6 +1,9 @@
 # High-level design
 
 ## Problem context
+This design addresses the simple scenario where agents want to be provided with data from other the personal stores of other agents. For example, where a service agent wants to be provided with personal data from a user agent. To rephrase this example in the terms used by this design: the service agent is the "service provider", the user agent is the "universal data agent", and the user's personal data is kept in "personal data stores".
+
+This design provides a modular architecture for how the service provider can access personal data via universal data agents. This design allows the service provider to be decoupled from users' personal data by forcing data transfer to be mediated by the universal data agent. Thereby, the party in control of the universal data agent has definitive control over what data the service provider can access, and the universal data agent can pull from as few or as many personal data stores as desired to accommodate service providers, even if those personal data stores wouldn't otherwise have the necessary access control rules to do so on their own.
 
 ## Terminology
 - **Service Provider:** An Agent that provides a service and communicates with *universal data agents* to access personal data.
