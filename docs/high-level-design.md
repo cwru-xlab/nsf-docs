@@ -1,4 +1,4 @@
-# High-level design
+# High-level design (WIP)
 
 ## Problem context
 This design addresses the simple scenario where agents want to be provided with data from other the personal stores of other agents. For example, where a service agent wants to be provided with personal data from a user agent. To rephrase this example in the terms used by this design: the service agent is the "service provider", the user agent is the "universal data agent", and the user's personal data is kept in "personal data stores".
@@ -17,6 +17,21 @@ This design provides a modular architecture for how the service provider can acc
 ## Scope
 
 ## Architecture
+
+```mermaid
+flowchart
+  subgraph Universal data agent
+  direction BT
+  dac[Data access control]
+  dm --> dac
+  dm[Data mapping]
+  dsd --> dm
+  dsd[Data store drivers]
+  sp[(Solid pod)] --> dsd
+  dwn[(Decentralized\nweb node)] --> dsd
+  agent[(DIDComm\nagent)] --> dsd
+  end
+```
 
 ## Use cases
 
