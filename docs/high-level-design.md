@@ -2,6 +2,8 @@
 
 ## Problem context
 
+## Terminology
+
 ## Requirements
 
 ## Scope
