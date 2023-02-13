@@ -13,6 +13,7 @@ This design provides a modular architecture for how the service provider can acc
 - **Decentralized Identifier (DID):** (See [W3C DIDs Definition](https://www.w3.org/TR/did-core/)).
 
 ## Requirements
+What this solution should achieve is a privacy-preserving way for people (users) to share their personal data with services (service providers) within the decentralized ecosystem. Users, or "data donors", must be guaranteed control over the data in their "personal clouds". Specifically, users should be able to control and monitor what specific data is shared from their personal clouds. Furthermore, they should have control over which specific target services will have access to their data, and must be able to first review and consent to the respective Terms of Service before data sharing occurs. 
 
 ## Scope
 
