@@ -1,7 +1,7 @@
 # High-level design (WIP)
 
 ## Problem context
-
+Many research projects depend directly on the quality and availability of data collected from participants. Unfortunately, great complexity comes with this process of data collection due to the privacy concerns with assimilating data from the various different isolated sources that researchers may want to tap into. For example, researchers may want participants to share data from a wide range of sources such as health records, smartphones, or wearable technology. Participants however might lack the ability to control precisely which data from these sources gets shared at what times, and to which parties that data gets consumed by. Traditional centralized solutions may be not preferable, as they can be vulnerable to a single-point-of-failure, and may ultimately aggregate either too little or too much data to match both the needs of the researchers and the privacy concerns of the participants. This design aims solve this technical challenge by providing participants, or "data donors", with a simple privacy-preserving way to control and monitor their data for sharing with a potential variety of different researcher targets.
 
 ## Terminology
 - **Service Provider:** An Agent that provides a service and communicates with *universal data agents* to access personal data.
