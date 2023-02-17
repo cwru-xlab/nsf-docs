@@ -45,6 +45,15 @@ flowchart
   end
 ```
 
+<p align="center">
+  <img src="/figs/message-oriented-data-sharing.jpg" alt="Message-oriented Data Sharing Diagram"  title="Message-oriented Data Sharing and Ownership" />
+</p>
+
+<p align="center">
+  <img src="/figs/user-agent-architecture.jpg" alt="Universal Agent Architecture Diagram" title="Universal Agent Architecture" />
+</p>
+
+
 ## Use cases
 
 ### NSF Healthcare
